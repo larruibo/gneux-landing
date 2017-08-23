@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1868.867 894.137 1381.321 421.509">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #fcf9f9;
+      }
+
+      .cls-2, .cls-6 {
+        fill: none;
+      }
+
+      .cls-2, .cls-4 {
+        stroke: #085472;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+        opacity: 0.672;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fcf9f9" stop-opacity="0"/>
+      <stop offset="0.394" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#085472" stop-opacity="0.569"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_69" data-name="Group 69" transform="translate(1879 393)">
+    <path id="Path_3588" data-name="Path 3588" class="cls-1" d="M3281,1697.156l86.106-58.508,114.52,58.508,79.256-78.273,103.136,5.754,155.811-57.012,197.74,43.348,78.571-24.633,30.969,15.281,36.2,27.93,74.548,31.18,157.414-87.18,115.158,12.789,76.158-72.449,72.733-15.89v263.392H3281Z" transform="translate(-3289.633 -993)"/>
+    <path id="Path_3590" data-name="Path 3590" class="cls-2" d="M3281,1697.156l86.106-58.508,114.52,58.508,79.256-78.273,103.136,5.754,155.811-57.012,197.74,43.348,78.571-24.633,30.969,15.281,36.2,27.93,74.548,31.18,157.414-87.18,115.158,12.789,76.158-72.449,72.733-15.89v263.682H3281Z" transform="translate(-3289.633 -995)"/>
+    <rect id="Rectangle_712" data-name="Rectangle 712" class="cls-1" width="1375" height="37" transform="translate(-9 733)"/>
+    <g id="Group_67" data-name="Group 67" transform="translate(0 28)">
+      <g id="Symbol_6_1" data-name="Symbol 6 – 1">
+        <rect id="Rectangle_689" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_2" data-name="Symbol 6 – 2" transform="translate(115 58)">
+        <rect id="Rectangle_689-2" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-2" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_3" data-name="Symbol 6 – 3" transform="translate(194 -19)">
+        <rect id="Rectangle_689-3" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-3" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_4" data-name="Symbol 6 – 4" transform="translate(297 -14)">
+        <rect id="Rectangle_689-4" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-4" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_5" data-name="Symbol 6 – 5" transform="translate(452 -70)">
+        <rect id="Rectangle_689-5" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-5" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_6" data-name="Symbol 6 – 6" transform="translate(649 -28)">
+        <rect id="Rectangle_689-6" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-6" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_7" data-name="Symbol 6 – 7" transform="translate(728 -52)">
+        <rect id="Rectangle_689-7" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-7" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_8" data-name="Symbol 6 – 8" transform="translate(762 -36)">
+        <rect id="Rectangle_689-8" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-8" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_9" data-name="Symbol 6 – 9" transform="translate(796 -9)">
+        <rect id="Rectangle_689-9" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-9" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_10" data-name="Symbol 6 – 10" transform="translate(871 22)">
+        <rect id="Rectangle_689-10" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-10" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_11" data-name="Symbol 6 – 11" transform="translate(1028 -65)">
+        <rect id="Rectangle_689-11" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-11" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_12" data-name="Symbol 6 – 12" transform="translate(1143 -52)">
+        <rect id="Rectangle_689-12" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-12" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+      <g id="Symbol_6_13" data-name="Symbol 6 – 13" transform="translate(1218 -124)">
+        <rect id="Rectangle_689-13" data-name="Rectangle 689" class="cls-3" width="5" height="223.623" transform="translate(80 836.646) rotate(180)"/>
+        <g id="Ellipse_1-13" data-name="Ellipse 1" class="cls-4" transform="translate(72 610)">
+          <circle class="cls-5" cx="5.5" cy="5.5" r="5.5"/>
+          <circle class="cls-6" cx="5.5" cy="5.5" r="4.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

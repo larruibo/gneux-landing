@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Avenir';
+  src:  url('fonts/Avenir.ttc')  format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Prompt';
+  src:  url('fonts/Prompt-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+  body{
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Avenir';
+    background-color: #FCF9F9;
+    overflow-x: hidden;
+  }
+
+  h1{
+    font-family: 'Prompt';
+  }
+
+  .primera{
+    height: 100vh;
+    background-image: url('../images/primera.jpeg');
+    background-size: cover;
+    position: relative;
+  }
+  .grafico img{
+    position: absolute;
+    bottom: -3px;
+    left: -2px;
+    width: 100.2%;
+  }
+  .logo{
+    text-align: center;
+    background-color: blueviolet;
+  }
+  .logo img{
+  }
+  .info-primera{
+    padding-top: 4%;
+    padding-left: 6%;
+    padding-right: 6%;
+    color:white;
+    text-align: center;
+  }
+  .info-primera h1{
+    font-weight: 700;
+    font-size: 60px;
+  }
+  .segunda{
+    height: 100vh;
+    background-color: #FCF9F9;
+    position: relative;
+  }
+  .tercera{
+    height: 100vh;
+    background-image: url('../images/tercera.jpg');
+    background-size: cover;
+    position: relative;
+  }
+  .grafico2 img{
+    position: absolute;
+    bottom: -26px;
+    left: -2px;
+    width: 102%;
+  }
+  .cuarta{
+    height: 100vh;
+    background-color: #085472;
+  }
+  .quinta{
+    height: 100vh;
+    background-color: #085472;
+  }
