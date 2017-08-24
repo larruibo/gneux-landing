@@ -7,6 +7,7 @@
   src:  url('fonts/Prompt-SemiBold.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
+
   body{
     font-size: 20px;
     margin: 0;
@@ -17,6 +18,7 @@
 
   h1{
     font-family: 'Prompt';
+    line-height: 1;
   }
 
   .primera{
@@ -33,12 +35,13 @@
   }
   .logo{
     text-align: center;
-    background-color: blueviolet;
+    background: rgba(255, 255, 255, 0.5);
+    height: 114px;
   }
   .logo img{
   }
   .info-primera{
-    padding-top: 4%;
+    padding-top: 8%;
     padding-left: 6%;
     padding-right: 6%;
     color:white;
@@ -47,29 +50,277 @@
   .info-primera h1{
     font-weight: 700;
     font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .info-primera h5{
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .segunda{
     height: 100vh;
     background-color: #FCF9F9;
     position: relative;
   }
+
+  .imagen-segunda{
+    position: absolute;
+    left: -12%;
+    width: 50%;
+  }
+  .imagen-segunda img{
+    width: 100%;
+    transform: rotate(25deg);
+  }
+
+  .info-segunda{
+    width: 50%;
+    background-color: white;
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    padding-left: 14%;
+    padding-right: 3%;
+    box-shadow: 3px 3px 10px #888888;
+  }
+
+  .info-segunda h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #74086D;
+    text-transform: uppercase;
+
+  }
+  .info-segunda h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #085472;
+  }
+  .info-segunda li{
+    font-size: 14px;
+    color: #74086D;
+  }
+
   .tercera{
     height: 100vh;
     background-image: url('../images/tercera.jpg');
     background-size: cover;
     position: relative;
   }
+
+  .info-tercera{
+    color: white;
+    width: 40%;
+    padding-top: 12%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+  }
+  .info-tercera h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 45px;
+    line-height: 1;
+  }
+  .info-tercera h3{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: 'Prompt';
+    font-size: 17px;
+  }
+  .form{
+    position: relative;
+    width: 60%;
+  }
+  .info-tercera input{
+    border-radius: 32px;
+    padding: 1%;
+    border-width: 0;
+    width: 100%;
+    padding-left: 10px;
+    position: absolute;
+    height: 22px;
+  }
+  .info-tercera button{
+    border-radius: 32px;
+    background: transparent;
+    border: none;
+    color: #74086D;
+    position: absolute;
+    left: 95%;
+    font-weight: 900;
+    top: 3px;
+    cursor: pointer;
+  }
   .grafico2 img{
     position: absolute;
-    bottom: -26px;
-    left: -2px;
-    width: 102%;
+    bottom: -1px;
+    left: 0;
+    width: 100.1%;
   }
+  .prueba{
+    /*background-color: #0A5C7C;*/
+    background: linear-gradient(#0A5C7C, #073B50);
+  }
+
   .cuarta{
     height: 100vh;
-    background-color: #085472;
+    position: relative;
+    color: white;
+  }
+  .info-cuarta1{
+    width: 45%;
+    display: inline-block;
+    position: absolute;
+    left: 7%;
+    top: 3%;
+  }
+  .info-cuarta1 h1{
+    font-size: 46px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .info-cuarta1 h3{
+    font-size: 30px;
+    font-family: 'Prompt';
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+  .info-cuarta1 ul{
+    margin:0;
+
+  }
+  .info-cuarta1 li{
+    font-size: 16px;
+
+  }
+  .info-cuarta2{
+    width: 42%;
+    display: inline-block;
+    position: absolute;
+    right: 6%;
+  }
+  .info-cuarta2 img{
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .info-cuarta2 h4{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .info-cuarta2 li{
+    font-size: 16px;
+  }
+  .info-cuarta2 ul{
+    margin:0;
   }
   .quinta{
     height: 100vh;
-    background-color: #085472;
+    position: relative;
+  }
+  .info-quinta1{
+    position: absolute;
+    color: white;
+    top: 0;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1;
+  }
+  .info-quinta1 h1{
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .info-quinta2{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    width: 100%;
+  }
+  .info-quinta2 h1{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  footer{
+    background: linear-gradient(#0B6580, #010C0F);
+    position: relative;
+    color:white;
+    height: 50vh;
+  }
+  .info-footer{
+    position: absolute;
+    top: 0;
+    width: 70%;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .info-footer h1{
+    font-size: 22px;
+    margin-top: 5%;
+  }
+  .input-text{
+    width: 100%;
+  }
+  .info-footer input{
+    border: none;
+    padding: 5px;
+    width: 40%;
+    background-color: #0B6580;
+    color: white;
+    padding-left: 2%;
+  }
+  .info-footer button{
+    background-color: #8BD5D9;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    margin-top: 1%;
+  }
+  .redes-footer{
+    position: absolute;
+    left: 10%;
+    bottom: 0;
+    width: 30%;
+  }
+  .redes-footer h3{
+    font-size: 24px;
+  }
+  .politicas-footer{
+    position:absolute;
+    bottom: 0;
+    left: 40%;
+    width: 30%;
+  }
+  .politicas-footer ul{
+    list-style-type: none;
+  }
+  .politicas-footer li{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .boton-bajar {
+    position: absolute;
+    bottom: 0;
+    width: 5%;
+    left: 50%;
+    margin-left: -36px;
+    cursor: pointer
+  }
+  .boton-bajar img {
+    width: 100%;
   }

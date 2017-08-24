@@ -2,30 +2,22 @@ jQuery(document).ready(function(){
 
   alert("Funciona JQuery");
 
-  $('#primera').bind('mousewheel DOMMouseScroll', function(e) {
-    if (e.originalEvent.wheelDelta < 0) {
-      e.preventDefault();
+  $('#boton-primera').click( function() {
       $(window).scrollTo('#segunda', 500);
     }
-  });
-  $('#segunda').bind('mousewheel DOMMouseScroll', function(e) {
-    if (e.originalEvent.wheelDelta < 0) {
-      e.preventDefault();
+  );
+  $('#boton-segunda').click( function() {
       $(window).scrollTo('#tercera', 500);
     }
-  });
-  $('#tercera').bind('mousewheel DOMMouseScroll', function(e) {
-    if (e.originalEvent.wheelDelta < 0) {
-      e.preventDefault();
+  );
+  $('#boton-tercera').click( function() {
       $(window).scrollTo('#cuarta', 500);
     }
-  });
-  $('#cuarta').bind('mousewheel DOMMouseScroll', function(e) {
-    if (e.originalEvent.wheelDelta < 0) {
-      e.preventDefault();
+  );
+  $('#boton-cuarta').click( function() {
       $(window).scrollTo('#quinta', 500);
     }
-  });
+  );
 
 
 });
