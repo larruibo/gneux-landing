@@ -36,7 +36,7 @@
   .logo{
     text-align: center;
     background: rgba(255, 255, 255, 0.5);
-    height: 114px;
+    height: 87px;
   }
   .logo img{
   }
@@ -52,6 +52,7 @@
     font-size: 60px;
     margin-bottom: 10px;
     margin-top: 10px;
+    text-shadow: 1px 1px #5e5b5b;
   }
   .info-primera h5{
     margin-bottom: 10px;
@@ -124,6 +125,7 @@
     margin-top: 10px;
     font-size: 45px;
     line-height: 1;
+    text-shadow: 1px 1px #5e5b5b;
   }
   .info-tercera h3{
     margin-bottom: 5px;
@@ -224,6 +226,7 @@
   .quinta{
     height: 100vh;
     position: relative;
+    background-color: white;
   }
   .info-quinta1{
     position: absolute;
@@ -240,6 +243,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #74086D;
   }
   .info-quinta2{
     position: absolute;
@@ -252,6 +256,7 @@
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
+    color: #085472;
   }
 
   footer{
@@ -290,26 +295,38 @@
     border-radius: 3px;
     padding: 6px 12px;
     margin-top: 1%;
+    cursor: pointer;
   }
   .redes-footer{
     position: absolute;
-    left: 10%;
+    left: 5%;
     bottom: 0;
     width: 30%;
+    vertical-align: top;
+    height: 22vh;
   }
   .redes-footer h3{
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
   .politicas-footer{
     position:absolute;
     bottom: 0;
-    left: 40%;
+    left: 35%;
     width: 30%;
+    vertical-align: top;
+    height: 22vh;
   }
   .politicas-footer ul{
     list-style-type: none;
   }
   .politicas-footer li{
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .politicas-footer a{
+    text-decoration: none;
+    color: white;
     font-size: 14px;
     font-weight: 700;
   }
@@ -324,3 +341,6 @@
   .boton-bajar img {
     width: 100%;
   }
+  .fa {
+  color: white;
+}
