@@ -75,7 +75,7 @@
   }
 
   .info-segunda{
-    width: 50%;
+    width: 70%;
     background-color: white;
     position: absolute;
     right: 2%;
@@ -91,6 +91,8 @@
     margin-top: 10px;
     color: #74086D;
     text-transform: uppercase;
+    font-family: 'Prompt';
+    font-weight: 700;
 
   }
   .info-segunda h3{
@@ -113,7 +115,7 @@
 
   .info-tercera{
     color: white;
-    width: 40%;
+    width: 60%;
     padding-top: 12%;
     padding-left: 10%;
     padding-right: 10%;
@@ -126,6 +128,8 @@
     font-size: 45px;
     line-height: 1;
     text-shadow: 1px 1px #5e5b5b;
+    font-family: 'Prompt';
+    font-weight: 700;
   }
   .info-tercera h3{
     margin-bottom: 5px;
@@ -152,9 +156,9 @@
     border: none;
     color: #74086D;
     position: absolute;
-    left: 95%;
+    left: 90%;
     font-weight: 900;
-    top: 3px;
+    top: -1px;
     cursor: pointer;
   }
   .grafico2 img{
@@ -181,10 +185,12 @@
     top: 3%;
   }
   .info-cuarta1 h1{
-    font-size: 46px;
+    font-size: 50px;
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-family: 'Prompt';
+    font-weight: 700;
   }
   .info-cuarta1 h3{
     font-size: 30px;
@@ -216,6 +222,7 @@
     font-size: 18px;
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: 700;
   }
   .info-cuarta2 li{
     font-size: 16px;
@@ -232,7 +239,7 @@
     position: absolute;
     color: white;
     top: 0;
-    width: 80%;
+    width: 100%;
     padding-left: 10%;
     padding-right: 10%;
     line-height: 1;
@@ -244,6 +251,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: #74086D;
+    font-family: 'Prompt';
+    font-weight: 700;
   }
   .info-quinta2{
     position: absolute;
@@ -257,6 +266,8 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: #085472;
+    font-family: 'Prompt';
+    font-weight: 700;
   }
 
   footer{
@@ -268,7 +279,7 @@
   .info-footer{
     position: absolute;
     top: 0;
-    width: 70%;
+    width: 100%;
     text-align: center;
     padding-right: 15%;
     padding-left: 15%;
@@ -276,6 +287,8 @@
   .info-footer h1{
     font-size: 22px;
     margin-top: 5%;
+    /*font-family: 'Prompt';*/
+    font-weight: 700;
   }
   .input-text{
     width: 100%;
@@ -343,4 +356,43 @@
   }
   .fa {
   color: white;
+}
+.w3-section{
+    width: 100%!important;
+    position: absolute !important;
+    top: 18%!important;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 65vh !important;
+}
+.w3-content{
+  max-width: none !important;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.centered{
+  position: relative;
+  height: 65vh;
+}
+
+.mySlides{
+  /*height: 65vh !important;*/
+  width: 80% !important;
+  position: absolute;
+  left: 10%;
+  border-radius: 2px;
+
+}
+.img-centered{
+  position: absolute;
+  left : 10%;
+  width: 20%;
+  bottom: 18%;
+  animation: fading 10s infinite;
+}
+
+@media only screen and (max-width: 1080px){
+
 }
