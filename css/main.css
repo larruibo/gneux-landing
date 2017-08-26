@@ -49,10 +49,12 @@
   }
   .info-primera h1{
     font-weight: 700;
-    font-size: 60px;
+    font-size: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
-    text-shadow: 1px 1px #5e5b5b;
+    text-shadow: 2px 2px rgba(99, 95, 95, 0.65);
+    font-family: 'Prompt';
+    text-transform: uppercase;
   }
   .info-primera h5{
     margin-bottom: 10px;
@@ -86,7 +88,7 @@
   }
 
   .info-segunda h1{
-    font-size: 40px;
+    font-size: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
     color: #74086D;
@@ -100,6 +102,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
     color: #085472;
+    font-weight: 700;
   }
   .info-segunda li{
     font-size: 14px;
@@ -127,7 +130,7 @@
     margin-top: 10px;
     font-size: 45px;
     line-height: 1;
-    text-shadow: 1px 1px #5e5b5b;
+    text-shadow: 2px 2px rgba(99, 95, 95, 0.65);
     font-family: 'Prompt';
     font-weight: 700;
   }
@@ -136,6 +139,7 @@
     margin-top: 5px;
     font-family: 'Prompt';
     font-size: 17px;
+    text-shadow: 2px 2px rgba(99, 95, 95, 0.65);
   }
   .form{
     position: relative;
@@ -345,7 +349,7 @@
   }
   .boton-bajar {
     position: absolute;
-    bottom: 0;
+    bottom: 1%;
     width: 5%;
     left: 50%;
     margin-left: -36px;
