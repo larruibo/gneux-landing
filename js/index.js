@@ -36,6 +36,10 @@ jQuery(document).ready(function(){
       $(window).scrollTo('#quinta', 500);
     }
   );
+  $('#boton-quinta').click( function() {
+      $(window).scrollTo('#footer', 500);
+    }
+  );
 
 
 });

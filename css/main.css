@@ -68,8 +68,9 @@
 
   .imagen-segunda{
     position: absolute;
-    left: -12%;
+    left: 5%;
     width: 50%;
+    z-index: 10;
   }
   .imagen-segunda img{
     width: 100%;
@@ -81,7 +82,7 @@
     background-color: white;
     position: absolute;
     right: 2%;
-    top: 20%;
+    top: 25%;
     padding-left: 14%;
     padding-right: 3%;
     box-shadow: 3px 3px 10px #888888;
@@ -261,7 +262,7 @@
   .info-quinta2{
     position: absolute;
     color: white;
-    bottom: 0;
+    bottom: 10%;
     width: 100%;
   }
   .info-quinta2 h1{
@@ -353,7 +354,8 @@
     width: 5%;
     left: 50%;
     margin-left: -36px;
-    cursor: pointer
+    cursor: pointer;
+    z-index: 11;
   }
   .boton-bajar img {
     width: 100%;
