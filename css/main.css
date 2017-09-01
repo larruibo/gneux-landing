@@ -12,7 +12,7 @@
     font-size: 20px;
     margin: 0;
     font-family: 'Avenir';
-    background-color: #FCF9F9;
+    background-color: #FFFFFF;
     overflow-x: hidden;
   }
 
@@ -29,16 +29,21 @@
   }
   .grafico img{
     position: absolute;
-    bottom: -3px;
+    bottom: -50px;
     left: -2px;
-    width: 100.2%;
+    width: 100.4%;
   }
   .logo{
     text-align: center;
-    background: rgba(255, 255, 255, 0.5);
-    height: 87px;
+    background: rgba(255, 255, 255, 0.3);
+    height: 100px;
+    filter: blur(4px);
   }
-  .logo img{
+  .imagen-logo{
+    position: absolute;
+    top:0;
+    width: 100%;
+    text-align: center;
   }
   .info-primera{
     padding-top: 8%;
@@ -58,7 +63,9 @@
   }
   .info-primera h5{
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: 40px;
+    font-size: 24px;
+    text-shadow: 1px 1px rgba(99, 95, 95, 0.65);
   }
   .segunda{
     height: 100vh;
@@ -68,23 +75,23 @@
 
   .imagen-segunda{
     position: absolute;
-    left: 5%;
-    width: 50%;
+    right: 15%;
+    width: 20%;
+    top: 0;
     z-index: 10;
   }
   .imagen-segunda img{
     width: 100%;
-    transform: rotate(25deg);
   }
 
   .info-segunda{
     width: 70%;
     background-color: white;
     position: absolute;
-    right: 2%;
-    top: 25%;
-    padding-left: 14%;
-    padding-right: 3%;
+    left: 5%;
+    top: 17%;
+    padding-right: 14%;
+    padding-left: 3%;
     box-shadow: 3px 3px 10px #888888;
   }
 
@@ -104,20 +111,22 @@
     margin-top: 5px;
     color: #085472;
     font-weight: 700;
+    font-family: 'Prompt';
   }
   .info-segunda li{
     font-size: 14px;
     color: #74086D;
+    font-family: 'Avenir';
   }
 
-  .tercera{
+  .quinta{
     height: 100vh;
     background-image: url('../images/tercera.jpg');
     background-size: cover;
     position: relative;
   }
 
-  .info-tercera{
+  .info-quinta{
     color: white;
     width: 60%;
     padding-top: 12%;
@@ -125,7 +134,7 @@
     padding-right: 10%;
     padding-bottom: 10%;
   }
-  .info-tercera h1{
+  .info-quinta h1{
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -135,7 +144,7 @@
     font-family: 'Prompt';
     font-weight: 700;
   }
-  .info-tercera h3{
+  .info-quinta h3{
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: 'Prompt';
@@ -146,7 +155,7 @@
     position: relative;
     width: 60%;
   }
-  .info-tercera input{
+  .info-quinta input{
     border-radius: 32px;
     padding: 1%;
     border-width: 0;
@@ -155,7 +164,7 @@
     position: absolute;
     height: 22px;
   }
-  .info-tercera button{
+  .info-quinta button{
     border-radius: 32px;
     background: transparent;
     border: none;
@@ -166,9 +175,32 @@
     top: -1px;
     cursor: pointer;
   }
+
+  .info-quinta-apps{
+    width: 35%;
+    margin-left: 10%;
+    color: white;
+  }
+  .info-quinta-apps img{
+    border-radius: 18px;
+    width: 35%;
+    margin-right: 5%;
+  }
+  .info-quinta-apps h2{
+    font-family: 'Avenir';
+  }
+
   .grafico2 img{
     position: absolute;
-    bottom: -1px;
+    bottom: -90px;
+    z-index: 9;
+    left: 0;
+    width: 100.1%;
+  }
+  .grafico3 img{
+    position: absolute;
+    bottom: -120px;
+    z-index: 9;
     left: 0;
     width: 100.1%;
   }
@@ -179,93 +211,88 @@
 
   .cuarta{
     height: 100vh;
+    background-color: #FFFFFF;
     position: relative;
-    color: white;
   }
-  .info-cuarta1{
+
+  .imagen-cuarta{
+    position: absolute;
+    left: 5%;
     width: 45%;
-    display: inline-block;
-    position: absolute;
-    left: 7%;
-    top: 3%;
+    z-index: 10;
   }
-  .info-cuarta1 h1{
+  .imagen-cuarta img{
+    width: 100%;
+    transform: rotate(25deg);
+  }
+
+  .info-cuarta{
+    width: 70%;
+    background-color: #F9F9F9;
+    position: absolute;
+    right: 2%;
+    top: 17%;
+    padding-left: 14%;
+    padding-right: 3%;
+    box-shadow: 3px 3px 10px #888888;
+  }
+
+  .info-cuarta h1{
     font-size: 50px;
-    text-transform: uppercase;
-    margin-top: 10px;
     margin-bottom: 10px;
-    font-family: 'Prompt';
-    font-weight: 700;
-  }
-  .info-cuarta1 h3{
-    font-size: 30px;
-    font-family: 'Prompt';
-    font-weight: 700;
-    margin-bottom: 0px;
     margin-top: 10px;
-  }
-  .info-cuarta1 ul{
-    margin:0;
-
-  }
-  .info-cuarta1 li{
-    font-size: 16px;
-
-  }
-  .info-cuarta2{
-    width: 42%;
-    display: inline-block;
-    position: absolute;
-    right: 6%;
-  }
-  .info-cuarta2 img{
-    margin-top: 10%;
-    margin-left: 10%;
-    width: 80%;
-  }
-  .info-cuarta2 h4{
-    font-size: 18px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    color: #74086D;
+    text-transform: uppercase;
+    font-family: 'Prompt';
     font-weight: 700;
+
   }
-  .info-cuarta2 li{
-    font-size: 16px;
+  .info-cuarta h3{
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #085472;
+    font-weight: 700;
+    font-family: 'Prompt';
+
   }
-  .info-cuarta2 ul{
-    margin:0;
+  .info-cuarta li{
+    font-size: 14px;
+    color: #74086D;
+    font-family: 'Avenir';
   }
-  .quinta{
+  .tercera{
     height: 100vh;
     position: relative;
     background-color: white;
   }
-  .info-quinta1{
+  .info-tercera1{
     position: absolute;
     color: white;
-    top: 0;
+    top: 4%;
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
     line-height: 1;
+    z-index: 10;
   }
-  .info-quinta1 h1{
-    font-size: 45px;
+  .info-tercera1 h1{
+    font-size: 40px;
     text-align: center;
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
     color: #74086D;
     font-family: 'Prompt';
-    font-weight: 700;
+    font-weight: 400;
   }
-  .info-quinta2{
+  .info-tercera2{
     position: absolute;
     color: white;
-    bottom: 10%;
+    bottom: 14%;
     width: 100%;
   }
-  .info-quinta2 h1{
+  .info-tercera2 h1{
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
@@ -279,41 +306,24 @@
     background: linear-gradient(#0B6580, #010C0F);
     position: relative;
     color:white;
-    height: 50vh;
+    height: 30vh;
   }
   .info-footer{
     position: absolute;
-    top: 0;
-    width: 100%;
+    right: 5%;
+    width: 30%;
+    bottom: 0;
     text-align: center;
-    padding-right: 15%;
-    padding-left: 15%;
+    vertical-align: top;
+    height: 18vh;
+
   }
-  .info-footer h1{
-    font-size: 22px;
+  .info-footer span{
+    font-size: 18px;
     margin-top: 5%;
     /*font-family: 'Prompt';*/
-    font-weight: 700;
-  }
-  .input-text{
-    width: 100%;
-  }
-  .info-footer input{
-    border: none;
-    padding: 5px;
-    width: 40%;
-    background-color: #0B6580;
-    color: white;
-    padding-left: 2%;
-  }
-  .info-footer button{
-    background-color: #8BD5D9;
-    color: white;
-    border: none;
-    border-radius: 3px;
-    padding: 6px 12px;
-    margin-top: 1%;
-    cursor: pointer;
+    font-weight: 400;
+    font-family: 'Avenir';
   }
   .redes-footer{
     position: absolute;
@@ -330,7 +340,7 @@
   .politicas-footer{
     position:absolute;
     bottom: 0;
-    left: 35%;
+    left: 37%;
     width: 30%;
     vertical-align: top;
     height: 22vh;
@@ -350,7 +360,7 @@
   }
   .boton-bajar {
     position: absolute;
-    bottom: 1%;
+    bottom: 4%;
     width: 5%;
     left: 50%;
     margin-left: -36px;
@@ -360,15 +370,25 @@
   .boton-bajar img {
     width: 100%;
   }
+  .boton-bajar2 {
+    position: absolute;
+    bottom: 8%;
+    width: 5%;
+    left: 50%;
+    margin-left: -36px;
+    cursor: pointer;
+    z-index: 11;
+  }
+  .boton-bajar2 img {
+    width: 100%;
+  }
   .fa {
   color: white;
 }
 .w3-section{
     width: 100%!important;
     position: absolute !important;
-    top: 18%!important;
-    margin-left: auto;
-    margin-right: auto;
+    top: 10%!important;
     text-align: center;
     height: 65vh !important;
 }
@@ -378,23 +398,21 @@
   vertical-align: middle;
   text-align: center;
 }
-.centered{
-  position: relative;
-  height: 65vh;
-}
 
 .mySlides{
   /*height: 65vh !important;*/
-  width: 80% !important;
+  width: 100% !important;
   position: absolute;
-  left: 10%;
+  height: 65vh;
   border-radius: 2px;
+  object-fit: fill;
+
 
 }
 .img-centered{
   position: absolute;
-  left : 10%;
-  width: 20%;
+  right : 0%;
+  width: 30%;
   bottom: 18%;
   animation: fading 10s infinite;
 }

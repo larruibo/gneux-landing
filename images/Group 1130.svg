@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="9220 2401 408 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4b314a;
+        opacity: 0.7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 30px;
+        font-family: Prompt-Regular, Prompt;
+      }
+
+      .cls-3 {
+        filter: url(#Transporte_de_comida);
+      }
+    </style>
+    <filter id="Transporte_de_comida" x="9287" y="2442" width="323" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1130" data-name="Group 1130" transform="translate(9107 -1144)">
+    <rect id="Rectangle_715" data-name="Rectangle 715" class="cls-1" width="408" height="128" transform="translate(113 3545)"/>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -9107, 1144)">
+      <text id="Transporte_de_comida-2" data-name="Transporte de comida" class="cls-2" transform="translate(9608 2475)"><tspan x="-320.55" y="0">Transporte de comida</tspan></text>
+    </g>
+  </g>
+</svg>

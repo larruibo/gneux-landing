@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="6883 2401 408 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #085472;
+        opacity: 0.7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 30px;
+        font-family: Prompt-Regular, Prompt;
+      }
+
+      .cls-3 {
+        filter: url(#Transporte_escolar);
+      }
+    </style>
+    <filter id="Transporte_escolar" x="7001" y="2442" width="272" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1128" data-name="Group 1128" transform="translate(6770 -1144)">
+    <rect id="Rectangle_715" data-name="Rectangle 715" class="cls-1" width="408" height="128" transform="translate(113 3545)"/>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -6770, 1144)">
+      <text id="Transporte_escolar-2" data-name="Transporte escolar" class="cls-2" transform="translate(7271 2475)"><tspan x="-269.61" y="0">Transporte escolar</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="8052 2401 408 128">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #89ced2;
+        opacity: 0.7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 30px;
+        font-family: Prompt-Regular, Prompt;
+      }
+
+      .cls-3 {
+        filter: url(#Control_de_personal);
+      }
+    </style>
+    <filter id="Control_de_personal" x="8148" y="2442" width="294" height="48" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1129" data-name="Group 1129" transform="translate(7939 -1144)">
+    <rect id="Rectangle_715" data-name="Rectangle 715" class="cls-1" width="408" height="128" transform="translate(113 3545)"/>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -7939, 1144)">
+      <text id="Control_de_personal-2" data-name="Control de personal" class="cls-2" transform="translate(8440 2475)"><tspan x="-291.12" y="0">Control de personal</tspan></text>
+    </g>
+  </g>
+</svg>

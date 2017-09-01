@@ -18,14 +18,18 @@ include_once('sendmail.php');
   <body>
     <section class="primera" id="primera">
       <div class="logo">
-        <img src="images/logos/logo4.png" alt="">
+
       </div>
+      <div class="imagen-logo">
+        <img src="images/logos/logo.png" alt="">
+      </div>
+
       <div class="info-primera">
         <h1>Seguimiento productivo y amigable</h1>
         <h5>Espéranos, ya estamos en camino.</h5>
       </div>
       <div class="grafico">
-        <img src="images/primera.png" alt="Imagen de la primera vista">
+        <img src="images/primera.svg" alt="Imagen de la primera vista">
       </div>
       <div class="boton-bajar" id="boton-primera">
         <img src="images/bajar.png" alt="Botón para bajar de vista">
@@ -33,7 +37,7 @@ include_once('sendmail.php');
     </section>
     <section class="segunda" id="segunda">
       <div class="imagen-segunda">
-        <img src="images/segunda.png" alt="Imagen de la segunda vista">
+        <img src="images/imac.svg" alt="Imagen de la segunda vista">
       </div>
       <div class="info-segunda">
         <h1>Control y Seguridad</h1>
@@ -49,117 +53,91 @@ include_once('sendmail.php');
           <li>Reportes e historiales de toda tu actividad.</li>
         </ul>
       </div>
-      <div class="boton-bajar" id="boton-segunda">
+      <div class="grafico2">
+        <img src="images/segunda.svg" alt="Imagen de la tercera vista">
+      </div>
+      <div class="boton-bajar2" id="boton-segunda">
         <img src="images/bajar.png" alt="Botón para bajar de vista">
       </div>
 
     </section>
-    <section class="tercera" id="tercera">
-      <div class="info-tercera">
-        <h1>¿Interesado en nuestro producto?</h1>
-        <h3>Pre-inscripción a nuestros servicios.</h3>
-        <div class="form">
-          <form class="" action="#" method="post">
-            <input type="text" name="email" id="email" value="" placeholder="Email" required>
-            <button type="submit" name="button"><img src="images/enviar.png" alt=""></button>
-          </form>
 
-        </div>
-
-      </div>
-
-      <div class="grafico2">
-        <img src="images/tercera.svg" alt="Imagen de la tercera vista">
-      </div>
-      <div class="boton-bajar" id="boton-tercera">
-        <img src="images/bajar1.png" alt="Botón para bajar de vista">
-      </div>
-    </section>
-    <div class="prueba">
-      <section class="cuarta" id="cuarta">
-        <div class="info-cuarta1">
-        <h1>¿Por qué GNEUX?</h1>
-        <h3>Productividad</h3>
-        <ul>
-          <li>Optimización de rutas.</li>
-          <li>Ahorro de gasolina.</li>
-          <li>Reducción de tiempos muertos.</li>
-        </ul>
-        <h3>Confianza</h3>
-        <ul>
-          <li>Plataforma robusta.</li>
-          <li>Servicio al cliente de alta calidad.</li>
-        </ul>
-        <h3>Costo / Beneficio</h3>
-        <ul>
-          <li>Planes flexibles.</li>
-          <li>Pago por vehículo.</li>
-          <li>Escalable.</li>
-        </ul>
-        <h3>Evolución</h3>
-        <ul>
-          <li>Funcionalidades adicionales en constante desarrollo.</li>
-        </ul>
-        </div>
-        <div class="info-cuarta2">
-          <img src="images/mapa.png" alt="Imagen de mapa para la cuarta vista">
-          <h4>Tus pasajeros podrán disfrutar de una aplicación móvil con un diseño amigable y fácil de usar, donde podrán:</h4>
-          <ul>
-            <li>Ver la ubicación de su servicio asignado.</li>
-            <li>Alertas cuando el servicio se encuentre cerca.</li>
-            <li>Con un solo clic podrán llamar al conductor.</li>
-            <li>Podrán reportarte novedades en la toma del servicio, reagendamiento.</li>
-            <li>Comunicación escrita directa con la compañía.</li>
-          </ul>
-        </div>
-        <div class="boton-bajar" id="boton-cuarta">
-          <img src="images/bajar1.png" alt="Botón para bajar de vista">
-        </div>
-      </section>
-      <section class="quinta" id="quinta">
-        <div class="info-quinta1">
+      <section class="tercera" id="tercera">
+        <div class="info-tercera1">
           <h1>¿Qué industrias se benefician con nuestros servicios?</h1>
         </div>
         <div class="w3-content w3-section">
-          <div class="centered">
             <img class="mySlides w3-animate-fading" src="images/AngelConductor.png" style="width:100%" alt="Imagen de Conductor Angel">
             <img class="img-centered" src="images/angel.png" alt="Angel Conductor">
             <img class="mySlides w3-animate-fading" src="images/BusEscolar.png" style="width:100%" alt="Imagen de Bus Escolar">
             <img class="img-centered" src="images/escolar.png" alt="Bus Escolar">
-            <img class="mySlides w3-animate-fading" src="images/Buspublico.png" style="width:100%" alt="Imagen de Bus Publico">
-            <img class="img-centered" src="images/publico.png" alt="Bus Público">
             <img class="mySlides w3-animate-fading" src="images/ComidaFresca.png" style="width:100%" alt="Imagen de Comida Fresca">
             <img class="img-centered" src="images/fresca.png" alt="Fruta Fresca">
             <img class="mySlides w3-animate-fading" src="images/ControlPersonal.png" style="width:100%" alt="Imagen de Control de Personal">
             <img class="img-centered" src="images/personal.png" alt="Control de Personal">
             <img class="mySlides w3-animate-fading" src="images/Peluquerias.png" style="width:100%" alt ="Imagen de Peluquerías">
-            <img class="img-centered" src="images/peluqueria.png" alt="Peluquería">
-          </div>
+            <img class="img-centered" src="images/puerta.png" alt="Peluquería">
 
         </div>
-        <div class="info-quinta2">
+        <div class="info-tercera2">
           <h1>Conoce el estado de muchos servicios en un solo lugar.</h1>
         </div>
-        <div class="boton-bajar" id="boton-quinta">
+        <div class="boton-bajar" id="boton-tercera">
           <img src="images/bajar.png" alt="Botón para bajar de vista">
         </div>
 
       </section>
-
-      <footer id="footer">
-        <div class="info-footer">
-          <h1>¿Preparado para saber dónde están tus servicios?</h1>
-          <form class="" action="#" method="post">
-            <div class="input-text">
-              <input type="text" name="email" value="" placeholder="Correo" required>
-            </div>
-            <button type="sumbit" name="button">ENVIAR</button>
-          </form>
-
+      <section class="cuarta" id="cuarta">
+        <div class="imagen-cuarta">
+          <img src="images/segunda.png" alt="Imagen de la segunda vista">
+        </div>
+        <div class="info-cuarta">
+          <h1>¡Hacemos felices a tus clientes!</h1>
+          <h3>Tus pasajeros podrán disfrutar de una aplicación móvil con un diseño amigable y fácil de usar, donde podrán: </h3>
+          <ul>
+            <li>Ver la ubicación de su servicio asignado.</li>
+            <li>Alertas cuando el servicio se encuentra cerca. </li>
+            <li>Con un solo clic podrán llamar al conductor.</li>
+            <li>Podrán reportarte novedades en la toma del servicio, reagendamiento. </li>
+            <li>Comunicación escrita directa con tu compañía.</li>
+          </ul>
+        </div>
+        <div class="boton-bajar2" id="boton-cuarta">
+          <img src="images/bajar.png" alt="Botón para bajar de vista">
+        </div>
+        <div class="grafico3">
+          <img src="images/segunda.svg" alt="Imagen de la tercera vista">
         </div>
 
-        <div class="redes-footer">
+      </section>
 
+      <section class="quinta" id="quinta">
+        <div class="info-quinta">
+          <h1>¿Interesado en nuestro producto?</h1>
+          <h3>Pre-inscripción a nuestros servicios.</h3>
+          <div class="form">
+            <form class="" action="#" method="post">
+              <input type="text" name="email" id="email" value="" placeholder="Email" required>
+              <button type="submit" name="button"><img src="images/enviar.png" alt=""></button>
+            </form>
+
+          </div>
+
+        </div>
+        <div class="info-quinta-apps">
+          <h2>Próximamente disponible en:</h2>
+          <img src="images/AppStore.svg" alt="">
+          <img src="images/PlayStore.svg" alt="">
+        </div>
+
+
+        <div class="boton-bajar" id="boton-quinta">
+          <img src="images/bajar1.png" alt="Botón para bajar de vista">
+        </div>
+      </section>
+
+      <footer id="footer">
+        <div class="redes-footer">
           <ul>
             <h3>SÍGUENOS</h3>
           	<a href="https://www.facebook.com"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
@@ -176,8 +154,11 @@ include_once('sendmail.php');
             <li><a href="#">Política de cookies</a></li>
           </ul>
         </div>
+        <div class="info-footer">
+          <span>TELÉFONO: </span> <span>+57 302 389 4902</span> </br>
+          <span>CORREO: </span><span>info@gneux.com</span>
+        </div>
       </footer>
-    </div>
 
 
   </body>
