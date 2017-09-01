@@ -19,7 +19,23 @@ jQuery(document).ready(function(){
       y[myIndex-1].style.display = "block";
       setTimeout(carousel, 9000);
     }
-
+  function buttonChange(){
+    $('#boton-primera').css('opacity', '1');
+    $('#boton-segunda').css('opacity', '1');
+    $('#boton-tercera').css('opacity', '1');
+    $('#boton-cuarta').css('opacity', '1');
+    $('#boton-quinta').css('opacity', '1');
+    setTimeout(buttonChange1, 1000);
+  }
+  function buttonChange1(){
+    $('#boton-primera').css('opacity', '0.5');
+    $('#boton-segunda').css('opacity', '0.5');
+    $('#boton-tercera').css('opacity', '0.5');
+    $('#boton-cuarta').css('opacity', '0.5');
+    $('#boton-quinta').css('opacity', '0.5');
+    setTimeout(buttonChange, 1000);
+  }
+  setTimeout(buttonChange, 50);
   $('#boton-primera').click( function() {
       $(window).scrollTo('#segunda', 500);
     }

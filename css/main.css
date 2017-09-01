@@ -29,7 +29,7 @@
   }
   .grafico img{
     position: absolute;
-    bottom: -50px;
+    bottom: -100px;
     left: -2px;
     width: 100.4%;
   }
@@ -192,7 +192,7 @@
 
   .grafico2 img{
     position: absolute;
-    bottom: -90px;
+    bottom: -100px;
     z-index: 9;
     left: 0;
     width: 100.1%;
@@ -366,6 +366,7 @@
     margin-left: -36px;
     cursor: pointer;
     z-index: 11;
+    transition-duration: 1s;
   }
   .boton-bajar img {
     width: 100%;
@@ -378,6 +379,7 @@
     margin-left: -36px;
     cursor: pointer;
     z-index: 11;
+    transition-duration: 1s;
   }
   .boton-bajar2 img {
     width: 100%;
