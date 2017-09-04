@@ -1,6 +1,5 @@
 jQuery(document).ready(function(){
 
-  alert("Funciona JQuery");
 
   var myIndex = 0;
   carousel();

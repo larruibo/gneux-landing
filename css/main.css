@@ -29,7 +29,7 @@
   }
   .grafico img{
     position: absolute;
-    bottom: -100px;
+    bottom: -10%;
     left: -2px;
     width: 100.4%;
   }
@@ -69,7 +69,7 @@
   }
   .segunda{
     height: 100vh;
-    background-color: #FCF9F9;
+    background-color: #FAFAFA;
     position: relative;
   }
 
@@ -99,7 +99,7 @@
     font-size: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #74086D;
+    color: #4B314A;
     text-transform: uppercase;
     font-family: 'Prompt';
     font-weight: 700;
@@ -115,7 +115,7 @@
   }
   .info-segunda li{
     font-size: 14px;
-    color: #74086D;
+    color: #4B314A;
     font-family: 'Avenir';
   }
 
@@ -182,7 +182,7 @@
     color: white;
   }
   .info-quinta-apps img{
-    border-radius: 18px;
+    border-radius: 12px;
     width: 35%;
     margin-right: 5%;
   }
@@ -192,17 +192,17 @@
 
   .grafico2 img{
     position: absolute;
-    bottom: -100px;
+    bottom: -17%;
     z-index: 9;
     left: 0;
     width: 100.1%;
   }
   .grafico3 img{
     position: absolute;
-    bottom: -120px;
+    bottom: -17%;
     z-index: 9;
-    left: 0;
-    width: 100.1%;
+    right: -5px;
+    width: 109%;
   }
   .prueba{
     /*background-color: #0A5C7C;*/
@@ -228,7 +228,7 @@
 
   .info-cuarta{
     width: 70%;
-    background-color: #F9F9F9;
+    background-color: #FAFAFA;
     position: absolute;
     right: 2%;
     top: 17%;
@@ -241,7 +241,7 @@
     font-size: 50px;
     margin-bottom: 10px;
     margin-top: 10px;
-    color: #74086D;
+    color: #4B314A;
     text-transform: uppercase;
     font-family: 'Prompt';
     font-weight: 700;
@@ -258,7 +258,7 @@
   }
   .info-cuarta li{
     font-size: 14px;
-    color: #74086D;
+    color: #4B314A;
     font-family: 'Avenir';
   }
   .tercera{
@@ -282,7 +282,7 @@
     text-transform: uppercase;
     margin-top: 10px;
     margin-bottom: 10px;
-    color: #74086D;
+    color: #4B314A;
     font-family: 'Prompt';
     font-weight: 400;
   }
@@ -369,7 +369,8 @@
     transition-duration: 1s;
   }
   .boton-bajar img {
-    width: 100%;
+    width: 70%;
+
   }
   .boton-bajar2 {
     position: absolute;
@@ -382,7 +383,7 @@
     transition-duration: 1s;
   }
   .boton-bajar2 img {
-    width: 100%;
+    width: 70%;
   }
   .fa {
   color: white;
