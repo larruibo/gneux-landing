@@ -337,6 +337,10 @@
     font-size: 20px;
     margin-bottom: 10px;
   }
+
+  .redes-footer a{
+    margin-right: 5%;
+  }
   .politicas-footer{
     position:absolute;
     bottom: 0;
@@ -420,6 +424,77 @@
   animation: fading 10s infinite;
 }
 
-@media only screen and (max-width: 1080px){
+@media  screen and (min-width: 1500px){
+
+
+  .info-primera h1{
+    font-size: 75px;
+  }
+
+  .info-primera h5{
+    font-size: 36px;
+  }
+  .info-segunda{
+    left: 10% !important;
+    top: 20%;
+    padding-right: 25%;
+    padding-left: 5%;
+    position: absolute;
+  }
+  .info-segunda h1{
+    font-size: 60px;
+  }
+
+  .info-segunda h3{
+    font-size: 30px;
+  }
+
+  .info-segunda li{
+    font-size: 20px;
+  }
+
+  .info-cuarta{
+    width: 65%;
+    right: 10%;
+    top: 20%;
+    padding-right: 5%;
+    padding-left: 15%;
+  }
+  .info-cuarta h1{
+    font-size: 60px;
+  }
+
+  .info-cuarta h3{
+    font-size: 30px;
+  }
+
+  .info-cuarta li{
+    font-size: 20px;
+  }
+
+  .info-quinta{
+    padding-top: 20%;
+  }
+
+  .info-quinta h1{
+    font-size: 55px;
+    margin-bottom: 40px;
+  }
+
+  .info-quinta h3{
+    font-size: 22px;
+  }
+  .info-quinta input{
+    height: 37px;
+  }
+
+  .info-quinta button{
+    top: 3px;
+    left: 93%;
+  }
+
+  .form{
+    width: 75%;
+  }
 
 }

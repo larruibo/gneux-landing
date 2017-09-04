@@ -22,10 +22,10 @@ if( isset($_POST['email']) ){
 		$mail->Port = 465;                                    // TCP port to connect to
 
 		$mail->setFrom('geappsdesarrollo@gmail.com', 'Contacto Landing Page');
-		$mail->addAddress('larruibo@gmail.com', 'Mario lega');     // Add a recipient mlega@gappstudio.com
+		$mail->addAddress('mlega@geappstudio.com', 'Mario lega');     // Add a recipient mlega@gappstudio.com
 		//$mail->addAddress('ellen@example.com');               // Name is optional
 		$mail->addReplyTo('geappsdesarrollo@gmail.com', 'Information');
-		// $mail->addCC('juanfranciscot@gmail.com');
+		$mail->addCC('larruibo@gmail.com');
 		//$mail->addBCC('bcc@example.com');
 
 		//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
